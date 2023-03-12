@@ -1,5 +1,6 @@
-package com.firstapp.spacelog
+package com.firstapp.spacelog.basic
 
+import com.firstapp.spacelog.User
 import kotlin.random.Random
 
 class spacelog(
