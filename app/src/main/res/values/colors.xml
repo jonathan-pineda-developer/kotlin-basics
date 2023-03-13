@@ -14,6 +14,12 @@
     <color name="background_app">#0A0B20</color>
     <color name="background_button">#EB1555</color>
     <color name="title_text">#FF8D8E98</color>
+    <color name="dark_blue_universe">#0A192F</color>
+    <color name="calm_blue">#2B547E</color>
+    <color name="light_grey">#F5F5F5</color>
+
+
+
 
 
 </resources>

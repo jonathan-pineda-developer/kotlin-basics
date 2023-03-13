@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">spacelog</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Configuracón</string>
 </resources>

@@ -11,7 +11,7 @@ class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
-        val btnLoginApp = findViewById<Button>(R.id.btnLoginApp)
+        val btnLoginApp = findViewById<Button>(R.id.btnLoginAp)
         val btnCalcApp = findViewById<Button>(R.id.btnCalcApp)
         btnLoginApp.setOnClickListener { navigateToLoginApp() }
         btnCalcApp.setOnClickListener { navegateToImcApp()}
