@@ -16,4 +16,12 @@
 
     </Button>
 
+    <Button
+        android:id="@+id/btnCalcApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC">
+
+    </Button>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
