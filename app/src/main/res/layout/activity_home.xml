@@ -6,24 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".spaceapp.HomeActivity">
 
-    <!--   <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="SpaceLog"
-           android:textColor="@color/purple_200"
-           android:textSize="25dp"
-           android:textStyle="bold"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintEnd_toEndOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           ></TextView> -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Write your name"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColorHighlight="@color/purple_200"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/material_on_surface_stroke"></TextView>
+
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/etname"
+        android:id="@+id/etName"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="75dp"
         android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
         app:layout_constraintBottom_toTopOf="@+id/btnlogin"
         app:layout_constraintEnd_toEndOf="parent"
 
@@ -35,13 +38,13 @@
         android:id="@+id/btnlogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/purple_200"
+        android:background="@color/teal_200"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"></androidx.appcompat.widget.AppCompatButton>
+        app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
