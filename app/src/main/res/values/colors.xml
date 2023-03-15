@@ -18,6 +18,11 @@
     <color name="calm_blue">#2B547E</color>
     <color name="light_grey">#F5F5F5</color>
 
+    <color name="low_weight">#FF9800</color>
+    <color name="normal_weight">#12F81B</color>
+    <color name="over_weight">#FF470D</color>
+    <color name="obesity">#FA0202</color>
+
 
 
 

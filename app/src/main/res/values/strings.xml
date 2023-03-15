@@ -4,4 +4,18 @@
     <string name="female">Female</string>
     <string name="hight">Hight</string>
     <string name="weight">Weight</string>
+    <string name="age">Age</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="recalculate">Recalculate</string>
+    <string name="error">Error</string>
+
+    <string name="low_weight">Low Weight</string>
+    <string name="low_weight_description">You got low weight!</string>
+    <string name="normal_weight">Normal Weight</string>
+    <string name="nomal_weight_description">You got a perfect IMC distribution weight!</string>
+    <string name="high_weight">High Weight</string>
+    <string name="high_weight_description">You got over weight!</string>
+    <string name="obesity_weight">Obesity</string>
+    <string name="obesity_weight_description">You got obesity!</string>
 </resources>

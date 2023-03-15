@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Spacelog"
         tools:targetApi="31">
         <activity
+            android:name=".imc.ResultIMCActivity"
+            android:exported="false" />
+        <activity
             android:name=".imc.imcCalculatorActivity"
             android:exported="false" />
         <activity
@@ -28,7 +31,7 @@
             android:exported="false" />
         <activity
             android:name=".spaceapp.HomeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
