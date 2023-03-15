@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">spacelog</string>
-    <string name="profile">Perfil</string>
-    <string name="settings">Configuracón</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hight">Hight</string>
+    <string name="weight">Weight</string>
 </resources>

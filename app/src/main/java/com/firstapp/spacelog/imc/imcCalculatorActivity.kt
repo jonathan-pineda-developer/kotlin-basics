@@ -2,9 +2,12 @@ package com.firstapp.spacelog.imc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import com.firstapp.spacelog.R
+import com.google.android.material.slider.RangeSlider
+import java.text.DecimalFormat
 
 class imcCalculatorActivity : AppCompatActivity() {
 
@@ -13,6 +16,10 @@ class imcCalculatorActivity : AppCompatActivity() {
 
     private var isOnProfile: Boolean = true
     private var isOnSetting: Boolean = false
+
+    private lateinit var viewHeight: TextView
+    private lateinit var rsHight: RangeSlider
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_imc_calculator)
@@ -25,6 +32,9 @@ class imcCalculatorActivity : AppCompatActivity() {
     private fun initComponent() {
         viewProfile = findViewById(R.id.viewProfile)
         viewSetting = findViewById(R.id.viewSetting)
+        viewHeight = findViewById(R.id.viewHeight)
+        rsHight = findViewById(R.id.rsHeight)
+
     }
 
     private fun initListener() {
@@ -35,6 +45,12 @@ class imcCalculatorActivity : AppCompatActivity() {
         viewSetting.setOnClickListener {
             changeColor()
             isClick()
+        }
+        rsHight.addOnChangeListener { _, value, _ ->
+            val df = DecimalFormat("#.##")
+            val result = df.format(value)
+
+            viewHeight.text = result + " CM"
         }
     }
 
